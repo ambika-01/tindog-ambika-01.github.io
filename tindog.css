@@ -1,0 +1,177 @@
+
+  .a{
+  background-color: #ff4c68;
+  padding: 3% 15%;
+
+}
+.tindog{
+  font-size: 2.5rem;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  position: relative;
+  bottom: 25px;
+  cursor: pointer;
+}
+.tindog a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+.contact{
+  text-align: right;
+  font-size: 1.5rem;
+  color: #FDEFEF;
+  font-weight:normal;
+  font-family:"Ubuntu", sans-serif;
+  position: relative;
+  bottom:35px;
+  left:55px;
+}
+.con,.pri,.dow{
+  display: inline-block;
+  cursor: pointer;
+  text-decoration:"none";
+  color: #FDEFEF;
+
+}
+.contact:hover{
+  color:white;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+color:white;
+
+}
+
+.container-fluid{
+padding:3% 15%;
+}
+.img{
+  position: relative;
+  top:100px;
+  left:120px;
+  transform: rotate(25deg);
+z-index: "1";
+}
+.navbar{
+  padding-bottom:4.1rem;
+}
+.button{
+  margin-top: 40px;
+}
+.button a{
+  text-decoration: none;
+  color:white;
+}
+.bigbox{
+  display: inline-block;
+padding: 7% 15%;
+}
+.box-t{
+padding-left: 10px;
+  }
+.fas{
+  font-size: 40px;
+  color:#ef8172;
+padding-left: 55px;
+padding-bottom: 15px;
+}
+h3{
+  font-family: "Montserrat-bold",sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.p{
+  font-family: "Ubuntu";
+  color:"#8f8f8f";
+}
+.fas:hover{
+  color:#ff4c68;
+}
+#test{
+  background-color:#ef8172;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+}
+.dog{
+  border-radius: 90%;
+  margin: 10px;
+}
+.text{
+  font-family: "Montserrat-Bold";
+  color:white;
+  line-height: 1.5;
+  font-size:2.5rem;
+}
+em{
+  font-size: 15px;
+  color: white;
+  }
+  .logo{
+    padding-bottom: 30px;
+    margin:10px 30px 0px 10px;
+  }
+  .carousel-item{
+    padding: 5% 17%;
+  }
+.card{
+  text-align: center;
+  margin: 20px;
+
+}
+.sec{
+  text-align: center;
+  padding:30px 25px;
+}
+.row{
+  padding: 100px;
+  padding-top: 10px;
+}
+.footer{
+  background-color: #ff4c68;
+  text-align:center;
+  padding: 55px;
+}
+.footer .btn{
+  margin-top:30px;
+}
+.btn a{
+  text-decoration: none;
+  color:white;
+}
+.last{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:white;
+  line-height:1.5;
+}
+.last-icons{
+  padding-top:30px;
+  text-align:center;
+}
+.last-icons a{
+  text-decoration: none;
+  color:black;
+}
+.last-p{
+  text-align: center;
+  padding-top: 10px;
+}
+@media ( max-width:1028px) {
+  h1{
+    text-align:center;
+  }
+  .img{
+    transform: rotate(0);
+    position: relative;
+    left:-2px;
+
+  }
+  .contact{
+    display: none;
+  }
+}
